@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevClub IA | Seu próximo capítulo começa hoje</title>
+
+    <meta name="description"
+        content="Explore aulas, mentorias, inteligência artificial, comunidade e conteúdos exclusivos no DevClub IA.">
+
+    <meta name="theme-color" content="#07110e">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <a href="#" class="brand" aria-label="DevClub início">
+                <span class="brand-icon">⌘</span>
+            </a>
+
+            <button class="sidebar-search" aria-label="Pesquisar">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="m16 16 4 4"></path>
+                </svg>
+            </button>
+
+            <nav class="navigation">
+
+                <a href="#inicio" class="nav-link active">
+                    <span class="nav-icon">⌂</span>
+                    <span>Início</span>
+                </a>
+
+                <a href="#aulas" class="nav-link">
+                    <span class="nav-icon">▷</span>
+                    <span>Aulas</span>
+                </a>
+
+                <a href="#plano" class="nav-link">
+                    <span class="nav-icon">◎</span>
+                    <span>Meu plano</span>
+                </a>
+
+                <a href="#ias" class="nav-link">
+                    <span class="nav-icon">⌘</span>
+                    <span>IAs</span>
+                </a>
+
+                <a href="#agenda" class="nav-link">
+                    <span class="nav-icon">▤</span>
+                    <span>Agenda</span>
+                </a>
+
+                <a href="#comunidade" class="nav-link">
+                    <span class="nav-icon">♧</span>
+                    <span>Comunidade</span>
+                </a>
+
+                <a href="#ajuda" class="nav-link">
+                    <span class="nav-icon">♧</span>
+                    <span>Ajuda</span>
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <button class="profile-button" aria-label="Perfil">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="Perfil do usuário">
+                </button>
+
+                <button class="theme-button" id="themeToggle" aria-label="Alternar tema">
+                    ◐
+                </button>
+
+            </div>
+
+        </aside>
+
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="main-content" id="inicio">
+
+            <!-- HEADER -->
+            <header class="topbar">
+
+                <div class="welcome">
+
+                    <h1>Seu próximo capítulo começa hoje.</h1>
+
+                    <p>
+                        Boa noite, <strong>Renato.</strong>
+                        <span>Explore seu DevClub.</span>
+                    </p>
+
+                </div>
+
+                <a href="#aulas" class="featured-card">
+
+                    <div class="featured-image">
+                        <img src="https://i.pravatar.cc/100?img=13"
+                            alt="Instrutor">
+                    </div>
+
+                    <div class="featured-content">
+                        <strong>Red Bull Semanal</strong>
+
+                        <p>
+                            Os incomodados que se mudem:
+                            Pare de esperar e comece a agir.
+                        </p>
+
+                        <span>Ver e assistir ↗</span>
+                    </div>
+
+                </a>
+
+            </header>
+
+
+            <!-- PAINEL CENTRAL -->
+            <section class="universe">
+
+                <canvas id="universeCanvas"></canvas>
+
+                <div class="universe-content">
+
+                    <!-- NÚCLEO CENTRAL -->
+                    <div class="central-core">
+
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+                        <div class="orbit orbit-three"></div>
+
+                        <div class="core-glow"></div>
+
+                        <div class="core-particles"></div>
+
+                        <div class="core-logo">
+                            <div class="logo-symbol">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <strong>IA</strong>
+                            <small>CLUB</small>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MÓDULO AULAS -->
+                    <a href="#aulas" class="module module-left module-aulas">
+
+                        <h2>AULAS</h2>
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">▣</span>
+                            <span class="orb-icon">⌘</span>
+                            <span class="orb-icon">▷</span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- MÓDULO MENTORIAS -->
+                    <a href="#mentorias" class="module module-right module-mentorias">
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">▥</span>
+                            <span class="orb-icon">🚀</span>
+                            <span class="orb-icon">🚀</span>
+
+                        </div>
+
+                        <h2>MENTORIAS</h2>
+
+                    </a>
+
+
+                    <!-- MÓDULO PRATICAR -->
+                    <a href="#ias" class="module module-left module-praticar">
+
+                        <h2>PRATICAR & IA</h2>
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">ϟ</span>
+                            <span class="orb-icon">▦</span>
+                            <span class="orb-icon">▣</span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- MÓDULO AO VIVO -->
+                    <a href="#ao-vivo" class="module module-right module-vivo">
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">▢</span>
+                            <span class="orb-icon">🚀</span>
+
+                        </div>
+
+                        <h2>AO VIVO</h2>
+
+                    </a>
+
+
+                    <!-- MÓDULO COMUNIDADE -->
+                    <a href="#comunidade" class="module module-left module-comunidade">
+
+                        <h2>COMUNIDADE</h2>
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">♧</span>
+                            <span class="orb-icon">♙</span>
+                            <span class="orb-icon">☆</span>
+                            <span class="orb-icon">♧</span>
+                            <span class="orb-icon">♜</span>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- MÓDULO BIBLIOTECA -->
+                    <a href="#biblioteca" class="module module-right module-biblioteca">
+
+                        <div class="module-orb">
+
+                            <span class="orb-icon">◫</span>
+                            <span class="orb-icon">◫</span>
+                            <span class="orb-icon">▷</span>
+                            <span class="orb-icon">▧</span>
+
+                        </div>
+
+                        <h2>BIBLIOTECA</h2>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- ATALHOS LATERAIS -->
+            <aside class="quick-actions">
+
+                <a href="#agenda">
+                    <span>▦</span>
+                    Agenda
+                </a>
+
+                <a href="#cronograma">
+                    <span>◫</span>
+                    Cronograma
+                </a>
+
+            </aside>
+
+
+            <!-- RODAPÉ / CONTROLES -->
+            <footer class="bottom-area">
+
+                <div class="player-controls">
+
+                    <button id="pauseAnimation" aria-label="Pausar animação">
+                        Ⅱ
+                    </button>
+
+                    <button id="resetAnimation" aria-label="Reiniciar animação">
+                        ↶
+                    </button>
+
+                    <button id="soundToggle" aria-label="Som">
+                        ◖
+                    </button>
+
+                </div>
+
+
+                <div class="search-area">
+
+                    <div class="search-shortcuts">
+
+                        <a href="#plano">Meu plano de estudos</a>
+                        <a href="#aulas">Explorar aulas</a>
+                        <a href="#comunidade">Comunidade</a>
+
+                    </div>
+
+
+                    <form class="ai-search" id="searchForm">
+
+                        <button type="button" class="add-button" aria-label="Adicionar">
+                            +
+                        </button>
+
+                        <input
+                            type="search"
+                            id="searchInput"
+                            placeholder="O que você quer aprender hoje?"
+                            autocomplete="off"
+                            aria-label="O que você quer aprender hoje?"
+                        >
+
+                        <button type="button" class="microphone-button"
+                            aria-label="Pesquisar por voz">
+                            ♩
+                        </button>
+
+                        <button type="submit" class="search-button"
+                            aria-label="Pesquisar">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="11" cy="11" r="7"></circle>
+                                <path d="m16 16 4 4"></path>
+                            </svg>
+                        </button>
+
+                    </form>
+
+                    <div class="search-footer">
+                        <span>Encontre seu próximo passo no DevClub</span>
+                        <span>Busca DevClub</span>
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/5500000000000"
+                class="whatsapp-button"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Fale conosco pelo WhatsApp">
+
+                <svg viewBox="0 0 24 24">
+                    <path d="M20 11.5a8.1 8.1 0 0 1-12 7.1L4 20l1.4-4A8.1 8.1 0 1 1 20 11.5Z"></path>
+                    <path d="M9 8.5c.3-.5.7-.4.9-.1l.8 1.2c.2.3.1.6-.1.8l-.5.5c.6 1.1 1.4 1.9 2.5 2.5l.5-.5c.2-.2.5-.3.8-.1l1.2.8c.3.2.4.6-.1.9-.6.5-1.2.6-1.9.4-2.1-.7-4.2-2.8-4.9-4.9-.2-.6-.1-1.3.4-1.5Z"></path>
+                </svg>
+
+            </a>
+
+        </main>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
